@@ -26,7 +26,7 @@ The dataset consists of the following columns for each instance. Note that many 
 `datapoint`: The three-sentence bit of text that was annotated.<br /> 
 `is_misogynistic`: Yes, No, or Unclear.<br /> 
 `why_unclear`: If labeled as unclear, annotators were asked to provide an explanation as to why it was unclear.<br /> 
-`misogynistic_inferences`: Contains one or more subcategories of misogyny from the list provided in Figure XXX in the original paper.<br /> 
+`misogynistic_inferences`: Contains one or more subcategories of misogyny from the list provided in Table 2 in the original paper.<br /> 
 `other_inferences`: If the datapoint contained additional msiogynsitic inferences that were not a part of the subcategories provided, annotators were able to add their own inferences using free text.<br />
 `inferences_explanation`: Annotators could optionally provide an explanation as to why they chose the misogynistic inference categories they did.<br /> 
 `original_severity`: The severity of the misogyny within the datapoint. Ranges from 0 to 1000.<br />
